@@ -1,0 +1,7 @@
+services:
+  app:
+    build: .
+    command: uv run python main.py
+
+  redis:
+    image: redis:latest
